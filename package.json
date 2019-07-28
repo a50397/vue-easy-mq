@@ -1,0 +1,40 @@
+{
+  "name": "vue-easy-mq",
+  "description": "Yet another simple and easy to use media query plugin for Vue",
+  "author": "fokap",
+  "version": "0.1.6",
+  "license": "MIT",
+  "keywords": ["vue", "media query"],
+  "bugs": "https://github.com/fokinko/vue-easy-mq/issues",
+  "repository": "github:fokinko/vue-easy-mq",
+  "main": "dist/vue-easy-mq.umd.js",
+  "browser": "dist/vue-easy-mq.common.js",
+  "unpkg": "dist/vue-easy-mq.umd.min.js",
+  "jsDelivr": "dist/vue-easy-mq.umd.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve demo/main",
+    "build:demo": "vue-cli-service build demo/main",
+    "build": "vue-cli-service build --target lib -name vue-easy-mq src/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-plugin-unit-mocha": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
