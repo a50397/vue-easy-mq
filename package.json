@@ -2,7 +2,7 @@
   "name": "vue-easy-mq",
   "description": "Yet another simple and easy to use media query plugin for Vue",
   "author": "fokap",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "keywords": ["vue", "media query"],
   "bugs": "https://github.com/fokinko/vue-easy-mq/issues",
