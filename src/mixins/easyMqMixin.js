@@ -11,12 +11,12 @@ const easyMqMixin = {
   },
   methods: {
     $_getWindowSize: function (event) {
-      let width = window.innerWidth && document.documentElement.clientWidth
+      const width = window.innerWidth && document.documentElement.clientWidth
         ? Math.min(window.innerWidth, document.documentElement.clientWidth)
         : window.innerWidth ||
           document.documentElement.clientWidth ||
         document.getElementsByTagName('body')[0].clientWidth
-      let height = window.innerHeight && document.documentElement.clientHeight
+      const height = window.innerHeight && document.documentElement.clientHeight
         ? Math.min(window.innerHeight, document.documentElement.clientHeight)
         : window.innerHeight ||
         document.documentElement.clientHeight ||
